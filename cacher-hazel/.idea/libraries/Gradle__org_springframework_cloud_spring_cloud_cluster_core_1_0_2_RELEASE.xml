@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-cluster-core:1.0.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-cluster-core/1.0.2.RELEASE/fddbfb631d08ea291a56431cb6656b4e77b7f028/spring-cloud-cluster-core-1.0.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-cluster-core/1.0.2.RELEASE/608f6c32fe5ac507be04f696184376d1166beded/spring-cloud-cluster-core-1.0.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

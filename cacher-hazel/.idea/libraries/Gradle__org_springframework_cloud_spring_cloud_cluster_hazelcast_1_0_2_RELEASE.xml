@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-cluster-hazelcast:1.0.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-cluster-hazelcast/1.0.2.RELEASE/862dd51f6c423dc81bf01027f38d6212f7e56631/spring-cloud-cluster-hazelcast-1.0.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-cluster-hazelcast/1.0.2.RELEASE/7fe9d103373f1ad18b330cb04a321dab152e847a/spring-cloud-cluster-hazelcast-1.0.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

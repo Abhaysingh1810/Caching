@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cacher-hazel.iml" filepath="$PROJECT_DIR$/cacher-hazel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cacher-hazel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cacher-hazel_main.iml" group="cacher-hazel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cacher-hazel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cacher-hazel_test.iml" group="cacher-hazel" />
+    </modules>
+  </component>
+</project>

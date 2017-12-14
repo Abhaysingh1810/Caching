@@ -1,0 +1,40 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.9.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.ab'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-cache')
+	compile('org.springframework.boot:spring-boot-starter-data-redis')
+	compile('org.springframework.boot:spring-boot-starter-web')
+    // https://mvnrepository.com/artifact/org.ehcache/ehcache
+  //  compile group: 'org.ehcache', name: 'ehcache', version: '3.1.2'
+    // https://mvnrepository.com/artifact/javax.cache/cache-api
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-cluster-hazelcast
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-cluster-hazelcast', version: '1.0.2.RELEASE'
+    compile group: 'javax.cache', name: 'cache-api', version: '1.0.0'
+
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
