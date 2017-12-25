@@ -33,6 +33,7 @@ dependencies {
     // https://mvnrepository.com/artifact/javax.cache/cache-api
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-cluster-hazelcast
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-cluster-hazelcast', version: '1.0.2.RELEASE'
+    compile group: 'com.hazelcast', name: 'hazelcast', version: '3.7'
     compile group: 'javax.cache', name: 'cache-api', version: '1.0.0'
 
 

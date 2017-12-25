@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 @Component
 public class SlowService {
 
-    @Cacheable(value="getData")
-    public String getData() throws InterruptedException {
+      @Cacheable(value="getData",key="#id")
+    public String getData(int id) throws InterruptedException {
 
-        Thread.sleep(3000);
-        System.out.println("from slow service");
-        return "here is ur data";
+        Thread.sleep(7000);
+        System.out.println("from slow service id is "+id);
+        return "here is ur data "+id;
     }
 }
